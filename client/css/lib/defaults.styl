@@ -1,0 +1,57 @@
+.clearfix
+  &:after
+    visibility hidden
+    display block
+    font-size 0
+    content ' '
+    clear both
+    height 0
+
+.text
+  &--left
+    text-align left
+  &--center
+    text-align center
+  &--right
+    text-align right
+  &--lowercase
+    text-transform lowercase
+  &--uppercase
+    text-transform uppercase
+
+.color
+  &--white
+    color #ffffff
+  &--green-0
+    color #5bd343
+  &--blue-0
+    color #615e9c
+  &--blue-1
+    color #757b9d
+  &--gold-0
+    color #eadfc8
+
+.hidden
+  display none
+  &--children >
+    display none
+
+.margin
+  &--no
+    margin 0
+
+.display
+  &--block
+    display block
+
+.center
+  margin-right auto
+  margin-left auto
+  &-h
+    left 50%
+    transform translateX(-50%)
+
+.pull
+  &--right
+    float right
+

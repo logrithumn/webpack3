@@ -1,0 +1,8 @@
+#mac files
+.DS_Store
+#node_modules
+node_modules
+#npm-debug
+npm-debug.log
+#exclude .gitignore
+!/.gitignore
